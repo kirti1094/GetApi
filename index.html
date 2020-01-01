@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Player Dertails</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="loader" style="display: none"><img src="loader.gif"></div>
+    <div class="container">
+        <h2 style="text-align:center">Player Details</h2>
+        <div class="search-container">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Player Name" id="playerName">
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary" onclick="searchPlayer()"  type="button">Search</button>
+                </div>
+            </div>
+         </div>
+        <div id="myRows" class="row">
+
+        </div>  
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.0/moment.min.js'></script>
+<script src="./script.js"></script>
+</body>
+</html>

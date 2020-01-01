@@ -1,0 +1,63 @@
+body{
+  padding-top: 40px;
+}
+h2{
+  padding-bottom: 20px;
+}
+.row{
+  padding:0 15px;
+}
+div#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 100;
+}
+div#loader img{
+  max-width: 100px;
+  margin:0 auto;
+}
+
+.card {
+  width: 23%;
+  float: left;
+  margin: 1%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+span{
+  color:#068206;
+}
+span.vs {
+  padding: 0 10px;
+  color: red;
+  font-weight: bold;
+}
+.search-container{
+  max-width: 400px;
+  margin:10px auto;
+}
+@media screen and (max-width:980px){
+  .card {
+    width: 48%;
+    float: left;
+    margin: 1%;
+  }
+}
+@media screen and (max-width:480px){
+  .card {
+    width: 98%;
+    float: left;
+    margin: 1%;
+  }
+}
