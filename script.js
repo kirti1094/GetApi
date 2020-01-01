@@ -1,4 +1,4 @@
-//Generic GET API CALL
+//Generic GET API CALL Methodd
 function getMethod(url,callback){
   $('body #loader').show();
   $.ajax({
